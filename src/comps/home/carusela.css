@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+.main_car {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(9, 3, 36);
+    height: 280px;
+    margin-top: -5px;
+padding: 5px;
+}
+
+.item_carusela {
+
+    width: 228px;
+    height: 255px;
+    /* position: fixed;
+    top: 71%;
+    right: 35%; */
+
+}
+
+

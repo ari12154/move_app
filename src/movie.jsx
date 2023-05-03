@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import MainMovie from "./comps/home/MainMovie";
+import Carusela from "./comps/home/Carusela";
 
 export default function Movie() {
   let [data, setData] = useState();
@@ -17,5 +18,9 @@ useEffect(()=>{
     // console.log(arr[0]);
   }
   
-  return <div><MainMovie data={data} /></div>;
+  return <div>
+    <MainMovie data={data} />
+    <Carusela data={data} />
+    </div>;
+  
 }
