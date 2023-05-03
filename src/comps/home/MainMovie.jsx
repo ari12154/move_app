@@ -23,7 +23,12 @@ export default function MainMovie(props) {
         <button className=' btn'>MY LIST</button>
       </div>
      
+<<<<<<< HEAD
       {console.log(i)}
+=======
+      {/* {console.log(i)} */}
+      {/* <Carusela/> */}
+>>>>>>> 015b1c7a25d44496e59497b7c752128c1281083f
     </div>
   )
 }
