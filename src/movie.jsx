@@ -16,7 +16,7 @@ useEffect(()=>{
     setData(data) ;
   }
   
-  return <div>
+  return (<div>
     <MainMovie data={data} />
     <Carusela data={data} />
     </div>;
